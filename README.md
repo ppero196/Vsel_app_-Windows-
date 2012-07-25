@@ -1,4 +1,4 @@
-Vsel_app_-Windows-
+Vsel calculator
 ==================
 
 Simple Vsel calculator app for Windows
