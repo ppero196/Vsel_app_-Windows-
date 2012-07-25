@@ -1,4 +1,5 @@
 Vsel_app_-Windows-
 ==================
 
-Vsel app for Windows
+Simple Vsel calculator app for Windows
+Source code soon :)
