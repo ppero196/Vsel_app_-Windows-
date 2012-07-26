@@ -1,0 +1,48 @@
+'A simple Vsel application!
+TextWindow.Show()
+TextWindow.Title="Vsel calculator"
+TextWindow.ForegroundColor="Red"
+TextWindow.WriteLine("IT WORKS ON MOTOROLA DEFY! FOR OTHER PHONES, USE AT YOUR OWN COST!!!")
+TextWindow.ForegroundColor="white"
+TextWindow.WriteLine("Calculate your Vsel!")
+TextWindow.ForegroundColor="Green"
+TextWindow.WriteLine("If your smartphone has 3 Vsels, type 3 else type 4!!!")
+TextWindow.ForegroundColor="white"
+TextWindow.WriteLine("Input how many Vsels your smartphone has:")
+'Number of cores!
+cores=TextWindow.ReadNumber()
+If cores="3" Then
+  TextWindow.WriteLine("Input your CPU frequency for Vsel 1:")
+  frequency1=TextWindow.ReadNumber()
+  TextWindow.WriteLine("Input your CPU frequency for Vsel 2:")
+  frequency2=TextWindow.ReadNumber()
+  TextWindow.WriteLine("Input your CPU frequency for Vsel 3:")
+  frequency3=TextWindow.ReadNumber()
+  TextWindow.WriteLine("Your ideal Vsel 1 is between " +  (frequency1 /  20) + " and " + ((frequency1 /  20) + 4))
+  TextWindow.WriteLine("Your ideal Vsel 2 is between " +  (frequency2 /  20) + " and " + ((frequency2 /  20) + 4))
+  TextWindow.WriteLine("Your ideal Vsel 3 is between " +  (frequency3 /  20) + " and " + ((frequency3 /  20) + 4))
+EndIf
+If cores="4" Then
+  TextWindow.WriteLine("Input your CPU frequency for Vsel 1:")
+  frequency1=TextWindow.ReadNumber()
+  TextWindow.WriteLine("Input your CPU frequency for Vsel 2:")
+  frequency2=TextWindow.ReadNumber()
+  TextWindow.WriteLine("Input your CPU frequency for Vsel 3:")
+  frequency3=TextWindow.ReadNumber()
+  TextWindow.WriteLine("Input your CPU frequency for Vsel 4:")
+  frequency4=TextWindow.ReadNumber()
+  TextWindow.WriteLine("Your ideal Vsel 1 is between " +  (frequency1 /  20) + " and " + ((frequency1 /  20) + 4))
+  TextWindow.WriteLine("Your ideal Vsel 2 is between " +  (frequency2 /  20) + " and " + ((frequency2 /  20) + 4))
+  TextWindow.WriteLine("Your ideal Vsel 3 is between " +  (frequency3 /  20) + " and " + ((frequency3 /  20) + 4))
+  TextWindow.WriteLine("Your ideal Vsel 3 is between " +  (frequency4 /  20) + " and " + ((frequency4 /  20) + 4))
+EndIf
+TextWindow.WriteLine("")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("")
+TextWindow.ForegroundColor="Blue"
+TextWindow.WriteLine("CREATED BY PPERO196 FOR XDA DEVELOPERS!")
+TextWindow.WriteLine("Version 1.1")
+TextWindow.ForegroundColor="White"
